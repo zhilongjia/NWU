@@ -1,5 +1,57 @@
-book_filename: "bookdown-demo"
+book_filename: "西北大学校园网络植物志"
 language:
   ui:
     chapter_name: "Chapter "
 delete_merged_file: true
+output_dir: "docs"
+
+rmd_files: ["index.Rmd",
+             "./MD/01-植物科.md",
+             "./MD/02-植物属.md",
+             "./MD/矮紫小檗.md", "./MD/白车轴草.md",  "./MD/白皮松.md", "./MD/稗.md", "./MD/斑种草.md",
+ "./MD/半夏.md", "./MD/薄荷.md", "./MD/抱茎小苦荬.md", "./MD/北柴胡.md", "./MD/北京丁香.md", "./MD/碧桃.md",
+ "./MD/萹蓄.md", "./MD/滨菊.md", "./MD/波斯婆婆纳.md", "./MD/播娘蒿.md", "./MD/苍耳.md", "./MD/草莓.md",
+ "./MD/草木樨.md", "./MD/侧柏.md", "./MD/茶条槭.md", "./MD/臭椿.md", "./MD/臭牡丹.md", "./MD/雏菊.md",
+ "./MD/垂柳.md", "./MD/垂盆草.md", "./MD/垂序商陆.md", "./MD/慈竹.md", "./MD/刺儿菜.md", "./MD/刺槐.md",
+ "./MD/刺楸.md", "./MD/葱.md", "./MD/葱兰.md", "./MD/粗榧.md", "./MD/打碗花.md", "./MD/大狗尾草.md",
+ "./MD/大花金鸡菊.md", "./MD/大花牵牛.md", "./MD/大戟.md", "./MD/丹参.md", "./MD/德国鸢尾.md", "./MD/地肤.md",
+ "./MD/地黄.md", "./MD/地锦.md", "./MD/东方罂粟.md", "./MD/冬青卫矛.md", "./MD/独行菜.md", "./MD/杜梨.md",
+ "./MD/杜仲.md", "./MD/多花蔷薇.md", "./MD/多花酢浆草.md", "./MD/多茎委陵菜.md", "./MD/鹅肠菜.md", "./MD/鹅观草.md",
+ "./MD/鹅绒藤.md", "./MD/鹅掌楸.md", "./MD/二乔玉兰.md", "./MD/繁缕.md", "./MD/反枝苋.md", "./MD/飞黄玉兰.md",
+ "./MD/费菜.md", "./MD/粉花绣线菊.md", "./MD/风龙.md", "./MD/凤仙花.md", "./MD/附地菜.md", "./MD/甘遂.md",
+ "./MD/狗尾草.md", "./MD/狗牙根.md", "./MD/枸橘.md", "./MD/枸杞.md", "./MD/构树.md", "./MD/栝楼.md",
+ "./MD/贯叶连翘.md", "./MD/鬼蜡烛.md", "./MD/鬼针草.md", "./MD/桂花.md", "./MD/国槐.md", "./MD/海桐.md",
+ "./MD/海仙花.md", "./MD/蔊菜.md", "./MD/合欢.md", "./MD/荷花玉兰.md", "./MD/荷兰菊.md", "./MD/红豆杉.md",
+ "./MD/红花檵木.md", "./MD/红瑞木.md", "./MD/红叶李.md", "./MD/胡桃.md", "./MD/虎杖.md", "./MD/花椒.md",
+ "./MD/华丁香.md", "./MD/华山新麦草.md", "./MD/黄鹌菜.md", "./MD/黄刺玫.md", "./MD/黄芩.md", "./MD/灰菜.md",
+ "./MD/活血丹.md", "./MD/火棘.md", "./MD/藿香.md", "./MD/鸡冠花.md", "./MD/鸡爪槭.md", "./MD/蒺藜.md",
+ "./MD/蕺菜.md", "./MD/荠菜.md", "./MD/金丝梅.md", "./MD/金叶女贞.md", "./MD/金钟花.md", "./MD/锦鸡儿.md",
+ "./MD/救荒野豌豆.md", "./MD/菊苣.md", "./MD/绢毛匍匐委陵菜.md", "./MD/君迁子.md", "./MD/苦苣菜.md", "./MD/阔叶箬竹.md",
+ "./MD/拉拉藤.md", "./MD/腊梅.md", "./MD/棶木.md", "./MD/离子芥.md", "./MD/连翘.md", "./MD/楝树.md",
+ "./MD/柳叶腊梅.md", "./MD/龙柏.md", "./MD/龙葵.md", "./MD/龙爪槐.md", "./MD/龙爪柳.md", "./MD/栾树.md",
+ "./MD/罗汉松.md", "./MD/萝卜.md", "./MD/萝藦.md", "./MD/葎草.md", "./MD/麻叶绣线菊.md", "./MD/马齿苋.md",
+ "./MD/马兰.md", "./MD/马唐.md", "./MD/曼陀罗.md", "./MD/毛白杨.md", "./MD/毛刺槐.md", "./MD/毛泡桐.md",
+ "./MD/毛蕊花.md", "./MD/梅花.md", "./MD/美国凌霄.md", "./MD/庙台槭.md", "./MD/魔芋.md", "./MD/牡丹.md",
+ "./MD/木槿.md", "./MD/木香.md", "./MD/南天竹.md", "./MD/泥胡菜.md", "./MD/牛蒡.md", "./MD/牛筋草.md",
+ "./MD/女贞.md", "./MD/爬山虎.md", "./MD/披碱草.md", "./MD/枇杷.md", "./MD/平车前.md", "./MD/葡萄.md",
+ "./MD/蒲公英.md", "./MD/铺地柏.md", "./MD/七叶树.md", "./MD/茜草.md", "./MD/窃衣.md", "./MD/青菜.md",
+ "./MD/青杞.md", "./MD/苘麻.md", "./MD/雀舌黄杨.md", "./MD/忍冬.md", "./MD/日本贴梗海棠.md", "./MD/日本晚樱.md",
+ "./MD/日本早樱.md", "./MD/柔弱斑种草.md", "./MD/三角槭.md", "./MD/三色堇.md", "./MD/山白树.md", "./MD/山麦冬.md",
+ "./MD/山梅花.md", "./MD/山樱花.md", "./MD/山茱萸.md", "./MD/杉木.md", "./MD/珊瑚树.md", "./MD/芍药.md",
+ "./MD/蛇莓.md", "./MD/石榴.md", "./MD/石楠.md", "./MD/石竹.md", "./MD/柿树.md", "./MD/蜀葵.md",
+ "./MD/水飞蓟.md", "./MD/水杉.md", "./MD/丝兰.md", "./MD/松果菊.md", "./MD/菘蓝.md", "./MD/苏铁.md",
+ "./MD/酸模.md", "./MD/碎米芥.md", "./MD/唐菖蒲.md", "./MD/桃.md", "./MD/田旋花.md", "./MD/田紫草.md",
+ "./MD/贴梗海棠.md", "./MD/铁苋菜.md", "./MD/秃疮花.md", "./MD/望春玉兰.md", "./MD/猬实.md", "./MD/蚊母树.md",
+ "./MD/乌蔹莓.md", "./MD/无花果.md", "./MD/无心菜.md", "./MD/梧桐.md", "./MD/西府海棠.md", "./MD/菥蓂.md",
+ "./MD/喜树.md", "./MD/夏至草.md", "./MD/苋.md", "./MD/香附子.md", "./MD/香丝草.md", "./MD/响叶杨.md",
+ "./MD/小飞蓬.md", "./MD/小蜡.md", "./MD/小苜蓿.md", "./MD/小叶女贞.md", "./MD/辛夷.md", "./MD/绣球小冠花.md",
+ "./MD/萱草.md", "./MD/悬铃木.md", "./MD/旋覆花.md", "./MD/雪松.md", "./MD/鸭跖草.md", "./MD/烟草.md",
+ "./MD/野胡萝卜.md", "./MD/野塘蒿.md", "./MD/野莴苣.md", "./MD/野芝麻.md", "./MD/一年蓬.md", "./MD/银杏.md",
+ "./MD/樱桃.md", "./MD/迎春花.md", "./MD/瘿椒树.md", "./MD/油茶.md", "./MD/油松.md", "./MD/榆树.md",
+ "./MD/虞美人.md", "./MD/羽叶茑萝.md", "./MD/玉兰.md", "./MD/郁金香.md", "./MD/鸢尾.md", "./MD/元宝槭.md",
+ "./MD/圆柏.md", "./MD/圆叶锦葵.md", "./MD/圆叶茑萝.md", "./MD/圆叶牵牛.md", "./MD/月季.md", "./MD/云杉.md",
+ "./MD/芸香.md", "./MD/早熟禾.md", "./MD/皂荚.md", "./MD/泽漆.md", "./MD/樟树.md", "./MD/长苞香蒲.md",
+ "./MD/中华猕猴桃.md", "./MD/中华小苦荬.md", "./MD/重瓣棣棠.md", "./MD/重瓣榆叶梅.md", "./MD/皱果苋.md", "./MD/皱叶酸模.md",
+ "./MD/梓树.md", "./MD/紫丁香.md", "./MD/紫花地丁.md", "./MD/紫堇.md", "./MD/紫荆.md", "./MD/紫苜蓿.md",
+ "./MD/紫苏.md", "./MD/紫穗槐.md", "./MD/紫藤.md", "./MD/紫薇.md", "./MD/棕榈.md", "./MD/酢浆草.md"
+ ]
