@@ -1,3 +1,17 @@
-This is a minimal example of a book based on R Markdown and **bookdown** (https://github.com/rstudio/bookdown). Please see the page "[Get Started](https://bookdown.org/yihui/bookdown/get-started.html)" at https://bookdown.org/yihui/bookdown/ for how to compile this example into HTML. You may generate a copy of the book in `bookdown::pdf_book` format by calling `bookdown::render_book('index.Rmd', 'bookdown::pdf_book')`. More detailed instructions are available here https://bookdown.org/yihui/bookdown/build-the-book.html.
+# 项目简介
 
-You can find the preview of this example at https://bookdown.org/yihui/bookdown-demo/.
+![西北大学校园网络植物志](./JPG/nwu.gif)
+
+本网页隶属于西北大学校级大学生创新性实验计划项目，项目编号（校200827） 项目由2008年6月申请，2008年9月项目启动，截至2009年9月提前计划3个月按合同书要求完成 任务。
+
+项目的主要任务是对西北大学三个校区（市区北校区、郭度南校区、桃园校区）范围内的植 物进行全面普查，统计出具体的植物种类和分布范围，对统计出的植物进行系统的归类；采集植 各个时期的特征图像，以数字化的形式进行网络记录管理。 
+
+本项目从2008年9月开始截止2009年9月共统计出三校区植物种类总数为274种，分属于85个科， 217个属。其中有水杉、红豆杉、华山新麦草、庙台槭、山白树、鹅掌楸、瘿椒树、猬实，8种珍 稀保护植物。北校区拥有植物236种，南校区拥有植物143种，桃园校区拥有植物92种。 
+
+项目的网络记录方面包括四方面内容： （1）项目介绍：对本项目进行简要的概要介绍及网络记录的说明。 （2）科目检索：通过植物分类系统对所统计的植物进行科学的科目划分归类，完成该项目最重要的 植物检索系统。 （3）植物查询：利用植物中文名称拼音字母顺序对搜有植物进行归类，便于快速对该种植物进行查 询。 （4）校园风光: 在项目进行的一年时间内，小组成员拍摄了许多西大四季变化的美景，借此机会一 一展现出来。 
+
+项目小组成员：王钊，张红阳，贾志龙 （2010届学生）
+
+指导老师：李智选
+
+Update: 2020.09.18 更新网页框架。
