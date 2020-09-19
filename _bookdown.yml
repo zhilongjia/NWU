@@ -6,9 +6,9 @@ delete_merged_file: true
 output_dir: "docs"
 
 rmd_files: ["index.Rmd",
-             "./MD/01-植物科.md",
-             "./MD/02-植物属.md",
-             "./MD/矮紫小檗.md", "./MD/白车轴草.md",  "./MD/白皮松.md", "./MD/稗.md", "./MD/斑种草.md",
+             "./MD/01-植物科.md",  "./MD/02-植物属.md",
+              "./MD/矮紫小檗.md",
+              "./MD/矮紫小檗.md", "./MD/白车轴草.md",  "./MD/白皮松.md", "./MD/稗.md", "./MD/斑种草.md",
  "./MD/半夏.md", "./MD/薄荷.md", "./MD/抱茎小苦荬.md", "./MD/北柴胡.md", "./MD/北京丁香.md", "./MD/碧桃.md",
  "./MD/萹蓄.md", "./MD/滨菊.md", "./MD/波斯婆婆纳.md", "./MD/播娘蒿.md", "./MD/苍耳.md", "./MD/草莓.md",
  "./MD/草木樨.md", "./MD/侧柏.md", "./MD/茶条槭.md", "./MD/臭椿.md", "./MD/臭牡丹.md", "./MD/雏菊.md",
@@ -53,5 +53,4 @@ rmd_files: ["index.Rmd",
  "./MD/芸香.md", "./MD/早熟禾.md", "./MD/皂荚.md", "./MD/泽漆.md", "./MD/樟树.md", "./MD/长苞香蒲.md",
  "./MD/中华猕猴桃.md", "./MD/中华小苦荬.md", "./MD/重瓣棣棠.md", "./MD/重瓣榆叶梅.md", "./MD/皱果苋.md", "./MD/皱叶酸模.md",
  "./MD/梓树.md", "./MD/紫丁香.md", "./MD/紫花地丁.md", "./MD/紫堇.md", "./MD/紫荆.md", "./MD/紫苜蓿.md",
- "./MD/紫苏.md", "./MD/紫穗槐.md", "./MD/紫藤.md", "./MD/紫薇.md", "./MD/棕榈.md", "./MD/酢浆草.md"
- ]
+ "./MD/紫苏.md", "./MD/紫穗槐.md", "./MD/紫藤.md", "./MD/紫薇.md", "./MD/棕榈.md", "./MD/酢浆草.md"]
