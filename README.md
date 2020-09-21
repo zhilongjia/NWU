@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/zhilongjia/NWU.svg?branch=master)](https://travis-ci.org/zhilongjia/NWU)
+
 # 项目简介
 
 ![西北大学校园网络植物志](docs/JPG/nwu.gif)
