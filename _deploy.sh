@@ -12,5 +12,5 @@ git clone -b master https://${GITHUB_PAT}@github.com/${TRAVIS_REPO_SLUG}.git boo
 cd book-output
 cp -r ../docs ./
 git add --all *
-git commit -m"Update the book" || true
+git commit -m"Update the book `date`" || true
 git push -q origin master
