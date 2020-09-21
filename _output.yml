@@ -7,7 +7,7 @@ bookdown::gitbook:
         <li><a href="http://zhilongjia.gitee.io/nwu">西北大学校园网络植物志</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://gitee.com/zhilongjia/NWU/edit/master/%s
+    edit: https://github.com/zhilongjia/NWU/edit/master/%s
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
