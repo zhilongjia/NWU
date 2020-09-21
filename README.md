@@ -17,3 +17,7 @@
 指导老师：李智选
 
 Update: 2020.09.18 更新网页框架。
+
+Website: https://zhilongjia.gitee.io/nwu
+
+Source: https://github.com/zhilongjia/NWU, https://gitee.com/zhilongjia/NWU (sync from github.)
